@@ -1,5 +1,6 @@
 {
   "name": "transformer-chess-engine",
+  "homepage": "https://coleandrae.github.io/Transformer-Chess-Engine/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
