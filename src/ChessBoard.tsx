@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function ChessBoard() {
   interface StringDictionary {
@@ -16,7 +16,7 @@ function ChessBoard() {
   const whiteBishop = "/Transformer-Chess-Engine/bishop-w.svg";
   const blackPawn = "/Transformer-Chess-Engine/pawn-b.svg";
   const whitePawn = "/Transformer-Chess-Engine/pawn-w.svg";
-  const [gameState, setGameState] = useState([
+  const [gameState, _setGameState] = useState([
     ["r", "n", "b", "q", "k", "b", "n", "r"],
     ["p", "p", "p", "p", "p", "p", "p", "p"],
     ["-", "-", "-", "-", "-", "-", "-", "-"],
